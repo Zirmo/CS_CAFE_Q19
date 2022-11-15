@@ -29,6 +29,9 @@ switch ($action) {
 
                     $_SESSION["idUtilisateur"] = $utilisateur["idUtilisateur"];
                     $_SESSION["niveauAutorisation"] = $utilisateur["niveauAutorisation"];
+                    if ($utilisateur["aAccepteRGPD"] == 0 || $utilisateur["aAccepteRGPD"] == "0")
+                        include "./Controleur/Controleur_RGPD_admin.php";
+
                     $Vue->setMenu(new Vue_Menu_Administration($_SESSION["niveauAutorisation"]));
 
                 } else {//mot de passe pas bon
