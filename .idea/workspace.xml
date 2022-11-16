@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d1d9aac-7ae4-4e35-8f64-7f25d6fa5d55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CS_CAFE_16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controleur/Controleur_RGPD_admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vue/Vue_RGPD_utilisateur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controleur/Controleur_visiteur_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controleur/Controleur_visiteur_admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_admin1234.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_admin1234.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modele/Modele_Salarie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modele/Modele_Salarie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modele/Modele_Utilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modele/Modele_Utilisateur.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -70,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668011735048</updated>
       <workItem from="1668011736375" duration="958000" />
-      <workItem from="1668509979259" duration="2217000" />
+      <workItem from="1668509979259" duration="3514000" />
+      <workItem from="1668603599952" duration="396000" />
     </task>
     <servers />
   </component>
