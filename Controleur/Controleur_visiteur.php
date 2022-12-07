@@ -11,12 +11,11 @@ use App\Modele\Modele_Jeton;
 
 use PHPMailer\PHPMailer\PHPMailer;
 //Ce contrôleur gère le formulaire de connexion pour les visiteurs
-
+\App\Utilitaire\Singleton_Logger::getInstance()->debug("$action $case");
 $Vue->setEntete(new Vue_Structure_Entete());
 
 switch ($action) {
     case "reinitmdpconfirm":
-
         //On regarde si le mail appartient à une entreprise
         $entreprise = Modele_Entreprise::Entreprise_Select_ParMail($_REQUEST["email"]);
 

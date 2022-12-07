@@ -9,7 +9,7 @@ use App\Vue\Vue_Connexion_Formulaire_administration;
 use App\Vue\Vue_Structure_BasDePage;
 use App\Vue\Vue_Structure_Entete;
 
-
+\App\Utilitaire\Singleton_Logger::getInstance()->debug("$action $case");
 switch ($action) {
     case "changerMDP":
         //Il a cliqué sur changer Mot de passe. Cas pas fini

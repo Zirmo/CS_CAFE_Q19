@@ -15,7 +15,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 use Spipu\Html2Pdf\Exception\Html2PdfException;
 use Spipu\Html2Pdf\Exception\ExceptionFormatter;
 
-
+\App\Utilitaire\Singleton_Logger::getInstance()->debug("$action $case");
 //Premier switch pour gérer les PDFs
 switch ($action) {
     case "AfficherCommandePDF":

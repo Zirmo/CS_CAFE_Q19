@@ -12,7 +12,7 @@ use App\Vue\Vue_Structure_Entete;
 
 $Vue->setEntete(new Vue_Structure_Entete());
 
-
+\App\Utilitaire\Singleton_Logger::getInstance()->debug("$action $case");
 $Vue->setMenu(new Vue_Menu_Administration($_SESSION["niveauAutorisation"]));
 
 switch ($action) {

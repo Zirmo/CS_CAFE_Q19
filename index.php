@@ -54,7 +54,7 @@ if (isset($_REQUEST["action"]))
     $action = $_REQUEST["action"];
 else
     $action = "Action_Par_Defaut";
-
+\Singleton_Logger::getInstance()->debug("Chargement : action $action case $case");
 switch ($typeConnexion) {
     case "visiteur" :
         include "Controleur/Controleur_visiteur.php";

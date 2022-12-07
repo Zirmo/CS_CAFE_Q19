@@ -17,8 +17,7 @@ use Spipu\Html2Pdf\Exception\ExceptionFormatter;
 
 $Vue->setEntete(new Vue_Structure_Entete());
 
-
-
+\App\Utilitaire\Singleton_Logger::getInstance()->debug("$action $case");
 /* Premier  */
 switch ($action) {
     case "diminuerQTT" :

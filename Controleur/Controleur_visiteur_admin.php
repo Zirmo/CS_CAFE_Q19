@@ -6,11 +6,13 @@
  */
 
 use App\Modele\Modele_Utilisateur;
+use App\Utilitaire\Singleton_Logger;
 use App\Vue\Vue_AfficherMessage;
 use App\Vue\Vue_Menu_Administration;
 use App\Vue\Vue_Connexion_Formulaire_administration;
 use App\Vue\Vue_Structure_BasDePage;
 use App\Vue\Vue_Structure_Entete;
+
 
 
 //Ce contrôleur gère le formulaire de connexion pour les utilisateurs de l'entreprise
@@ -24,9 +26,10 @@ switch ($action) {
             $utilisateur = Modele_Utilisateur::Utilisateur_Select_ParLogin($_REQUEST["login"]);
             // Connexion possible si l'utilisateur existe et qu'il n'est pas désactivé
             if ($utilisateur != null and $utilisateur["desactiver"] == 0) {
+                Singleton_Logger::getInstance()->debug('lOGGER L\'UTILISATEUR INCONNU');
                 if (password_verify($_REQUEST["password"], $utilisateur["motDePasse"]))
                 {//le mot de passe est associable à ce Hash
-
+                    Singleton_Logger::getInstance()->debug('MDP INCORRECT');
                     $_SESSION["idUtilisateur"] = $utilisateur["idUtilisateur"];
                     $_SESSION["niveauAutorisation"] = $utilisateur["niveauAutorisation"];
                     $Vue->setMenu(new Vue_Menu_Administration($_SESSION["niveauAutorisation"]));
