@@ -7,6 +7,7 @@ use App\Vue\Vue_Mail_Confirme;
 use App\Vue\Vue_Mail_ReinitMdp;
 use App\Vue\Vue_Structure_BasDePage;
 use App\Vue\Vue_Structure_Entete;
+use App\Modele\Modele_Jeton;
 
 use PHPMailer\PHPMailer\PHPMailer;
 //Ce contrôleur gère le formulaire de connexion pour les visiteurs
@@ -94,6 +95,41 @@ switch ($action) {
 
         $Vue->addToCorps(new Vue_Mail_ReinitMdp());
 
+        break;
+    case "reinitmdpconfirmtoken":
+
+        //On regarde si le mail appartient à un salarie
+        $salarie = Modele_Salarie::Salarie_Select_byMail($_REQUEST["email"]);
+
+        if ($salarie != null) {
+            $octetsAleatoires = openssl_random_pseudo_bytes (256) ;
+
+            $valeurJeton = sodium_bin2base64($octetsAleatoires, SODIUM_BASE64_VARIANT_ORIGINAL);
+            $idJetonCree = Modele_Jeton::Jeton_Creation($valeurJeton,$salarie["idSalarie"],1);
+
+            $mail = new PHPMailer;
+            $mail->isSMTP();
+            $mail->Host = '127.0.0.1';
+            $mail->CharSet = "UTF-8";
+            $mail->Port = 1025; //Port non crypté
+            $mail->SMTPAuth = false; //Pas d’authentification
+            $mail->SMTPAutoTLS = false; //Pas de certificat TLS
+            $mail->setFrom('contact@labruleriecomtoise.fr', 'contact');
+            $mail->addAddress($salarie["mail"], $salarie["nom"] . " " . $salarie["prenom"]);
+            if ($mail->addReplyTo('contact@labruleriecomtoise.fr', 'contact')) {
+                $mail->Subject = 'Objet : MDP !';
+                $mail->isHTML(true);
+                $mail->Body = "Réinitialiser votre mdp : <a href=\"http://localhost:8000/index.php?action=token&token=".$valeurJeton."\">Click sur ce lien</a> ";
+
+                if (!$mail->send()) {
+                    $msg = 'Désolé, quelque chose a mal tourné. Veuillez réessayer plus tard.';
+                } else {
+                    $msg = 'Message envoyé ! Merci de nous avoir contactés.';
+                }
+            } else {
+                $msg = 'Il doit manquer qqc !';
+            }
+        }
         break;
     case "Se connecter" :
 
