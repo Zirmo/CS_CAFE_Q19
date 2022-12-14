@@ -27,7 +27,6 @@ if(!verifierCSRF($CSRF))
     $Vue->addToCorps(new Vue_Connexion_Formulaire_client());
     $Vue->addToCorps(new Vue_AfficherMessage("Il ne faut pas actualiser !"));
     $Vue->afficher();
-    \Singleton_Logger::getInstance()->notice("jeton csrf utilisé");
     die();
 }
 
