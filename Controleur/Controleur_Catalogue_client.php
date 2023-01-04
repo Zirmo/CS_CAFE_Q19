@@ -10,12 +10,13 @@ use App\Vue\Vue_Connexion_Formulaire_administration;
 use App\Vue\Vue_Menu_Entreprise_Salarie;
 use App\Vue\Vue_Structure_BasDePage;
 use App\Vue\Vue_Structure_Entete;
+use App\Utilitaire\Singleton_Logger;
 
 
 
     $Vue->setEntete(new Vue_Structure_Entete());
 
-    \Singleton_Logger::getInstance()->debug("Chargement : action $action ");
+    Singleton_Logger::getInstance()->debug("Chargement : action $action ");
     if ($action == "AjoutPanierClient") {
         //on met dans le panier avant de calculer le menu
         Modele_Commande::Panier_Ajouter_Produit_ParIdProduit($_SESSION["idEntreprise"], $_REQUEST["idProduit"]);

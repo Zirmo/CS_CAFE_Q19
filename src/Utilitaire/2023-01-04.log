@@ -1,0 +1,92 @@
+[2023-01-04T17:00:40.216785+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-04T17:00:40.367719+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-04T17:00:44.699272+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:00:48.716272+01:00] cafe.DEBUG: VoirDetailCommande Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:01:08.195988+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:01:10.979957+01:00] cafe.DEBUG: VoirDetailCommande Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:02:29.983099+01:00] cafe.DEBUG: Chargement : action Action_Par_Defaut  [] {"ip":"::1"}
+[2023-01-04T17:02:30.963500+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:02:32.395997+01:00] cafe.DEBUG: VoirDetailCommande Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:02:33.868080+01:00] cafe.DEBUG: AfficherCommandePDF Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:02:47.222560+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-04T17:02:47.317434+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-04T17:02:54.884406+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:02:55.644487+01:00] cafe.DEBUG: VoirDetailCommande Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:11:55.659849+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:11:56.956912+01:00] cafe.DEBUG: validerPanier Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:12:02.324022+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:12:03.652147+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:12:07.430004+01:00] cafe.DEBUG: VoirDetailCommande Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:28:49.646992+01:00] cafe.DEBUG: AfficherCommandePDF Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:29:04.450469+01:00] cafe.DEBUG: VoirDetailCommande Gerer_CommandeClient [] {"ip":"::1"}
+[2023-01-04T17:29:06.626887+01:00] cafe.DEBUG: Chargement : action Action_Par_Defaut  [] {"ip":"::1"}
+[2023-01-04T17:30:55.048416+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:30:55.962750+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-04T17:30:56.579378+01:00] cafe.DEBUG: Chargement : action Action_Par_Defaut  [] {"ip":"::1"}
+[2023-01-04T17:30:57.939659+01:00] cafe.DEBUG: Chargement : action AjoutPanierClient  [] {"ip":"::1"}
+[2023-01-04T17:30:59.371132+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:31:00.395602+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:32:32.423618+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:32:33.859390+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:32:34.556121+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:34:03.174326+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:34:03.850799+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:34:05.188526+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:34:10.202429+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:34:20.395903+01:00] cafe.DEBUG: Chargement : action AjoutPanierClient  [] {"ip":"::1"}
+[2023-01-04T17:34:22.132017+01:00] cafe.DEBUG: Chargement : action Action_Par_Defaut  [] {"ip":"::1"}
+[2023-01-04T17:34:24.539354+01:00] cafe.DEBUG: Chargement : action AjoutPanierClient  [] {"ip":"::1"}
+[2023-01-04T17:34:27.580664+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:34:28.789205+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:34:29.580763+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:07.699821+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:09.194706+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:14.293214+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:14.916506+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:15.116613+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:15.300572+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:16.275908+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:16.669652+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:16.844191+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:17.227973+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:17.619716+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:17.796615+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:18.004219+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:55.180569+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:55.906831+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:56.363608+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:56.547587+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:56.756726+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:56.940404+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:57.131896+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:57.340339+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:57.731693+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:58.316605+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:58.531897+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:58.726047+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:58.925315+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:35:59.124507+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:36:08.902890+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-04T17:36:09.004134+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-04T17:36:10.748874+01:00] cafe.DEBUG: Chargement : action AjoutPanierClient  [] {"ip":"::1"}
+[2023-01-04T17:36:12.141048+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:36:12.948349+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:36:32.339147+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:36:34.244028+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:36:50.514761+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:36:52.605259+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:36:53.620400+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:37:11.147901+01:00] cafe.DEBUG: diminuerQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:37:12.354768+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:37:13.122622+01:00] cafe.DEBUG: Chargement : action AjoutPanierClient  [] {"ip":"::1"}
+[2023-01-04T17:37:14.675950+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:37:15.916742+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:37:54.116407+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:37:56.772578+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:37:57.781387+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:38:00.571291+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:38:01.540861+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:38:04.396749+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:38:07.092600+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:38:11.304523+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:38:12.596552+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}

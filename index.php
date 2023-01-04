@@ -53,7 +53,7 @@ if (isset($_REQUEST["action"]))
     $action = $_REQUEST["action"];
 else
     $action = "Action_Par_Defaut";
-\Singleton_Logger::getInstance()->debug("Chargement : action $action case $case");
+
 switch ($typeConnexion) {
     case "visiteur" :
         include "Controleur/Controleur_visiteur.php";
@@ -72,6 +72,7 @@ switch ($typeConnexion) {
         switch ($case) {
             case "Cas_Par_Defaut":
             case "Gerer_catalogue":
+
             case "Catalogue_client":
                 include "Controleur/Controleur_Catalogue_client.php";
                 break;

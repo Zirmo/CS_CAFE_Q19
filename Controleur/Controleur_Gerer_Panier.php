@@ -29,6 +29,7 @@ switch ($action) {
         Modele_Commande::Panier_AugmenterQTT_Article($_SESSION["idEntreprise"], $_REQUEST["idProduit"]);
         $listeArticlePanier = Modele_Commande::Panier_ListeArticle($_SESSION["idEntreprise"]);
         $Vue->addToCorps(new Vue_Panier_Client($listeArticlePanier));
+        \App\Modele\Modele_log::Realiser_ajouter($_SESSION["idSalarie"],1, new DateTime(),$_REQUEST["idProduit"]);
         break;
     case "validerPanier":
         ob_start();

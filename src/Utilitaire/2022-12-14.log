@@ -1,0 +1,6 @@
+[2022-12-14T17:11:14.433787+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2022-12-14T17:11:15.206420+01:00] cafe.DEBUG: Chargement : action Action_Par_Defaut  [] {"ip":"::1"}
+[2022-12-14T17:11:17.261555+01:00] cafe.DEBUG: Chargement : action AjoutPanierClient  [] {"ip":"::1"}
+[2022-12-14T17:11:18.158685+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_Panier [] {"ip":"::1"}
+[2022-12-14T17:11:19.279415+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2022-12-14T17:11:19.478155+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
