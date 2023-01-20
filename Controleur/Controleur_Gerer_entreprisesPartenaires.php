@@ -20,6 +20,7 @@ use function App\Fonctions\GenereMDP;
 $Vue->setEntete(new Vue_Structure_Entete());
 $Vue->setMenu(new Vue_Menu_Administration($_SESSION["niveauAutorisation"]));
 \App\Utilitaire\Singleton_Logger::getInstance()->debug("$action $case");
+\App\Modele\Modele_log::Realiser_ajouter($_SESSION["idSalarie"],4, new DateTime(),$_REQUEST["idEntreprise"]);
 switch ($action) {
     case "Modifer":
         //Modifier dans le formulaire de mise à jour

@@ -2,6 +2,7 @@
 namespace App\Modele;
 use App\Utilitaire\Singleton_ConnexionPDO;
 use PDO;
+use Psr\Log\NullLogger;
 
 class Modele_Salarie
 {
@@ -151,11 +152,25 @@ WHERE idSalarie = :paramidUtilisateur');
         $requetePreparee = $connexionPDO->prepare('
         update salarie
         set aAccepteRGPD = 1,
-            dateAcceptionRGPD = :dateAct
+            dateAcceptationRGPD = :dateAcceptationRGPD
         where idSalarie = :idSalarie');
         $requetePreparee->bindParam('idSalarie', $idSalarie);
         $dateAct = date("Y-m-d H:i:s");
-        $requetePreparee->bindParam('dateAct', $dateAct);
+        $requetePreparee->bindParam('dateAcceptationRGPD', $dateAct);
         $reponse = $requetePreparee->execute();
+    }
+
+    static function SalarieUpdateRGPD($idSalarie){
+        $connexionPDO = Singleton_ConnexionPDO::getInstance();
+        $requetePreparee = $connexionPDO->prepare('
+        update salarie
+        set aAccepteRGPD = 0,
+            dateAcceptationRGPD = :dateAcceptationRGPD
+        where idSalarie = :idSalarie');
+        $dateAct = date("Y-m-d H:i:s");
+        $requetePreparee->bindParam('idSalarie', $idSalarie);
+        $requetePreparee->bindParam('dateAcceptationRGPD', $dateAct);
+        $reponse= $requetePreparee->execute();
+        return $reponse;
     }
 }

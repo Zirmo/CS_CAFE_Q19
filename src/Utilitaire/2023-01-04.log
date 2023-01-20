@@ -90,3 +90,35 @@
 [2023-01-04T17:38:07.092600+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
 [2023-01-04T17:38:11.304523+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
 [2023-01-04T17:38:12.596552+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:49:42.000853+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:49:42.845914+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:49:43.756830+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:49:44.172946+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:49:45.556926+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:49:46.781836+01:00] cafe.DEBUG: augmenterQTT Gerer_Panier [] {"ip":"::1"}
+[2023-01-04T17:49:57.029298+01:00] cafe.DEBUG: lOGGER L'UTILISATEUR INCONNU [] {"ip":"::1"}
+[2023-01-04T17:49:57.100556+01:00] cafe.DEBUG: MDP INCORRECT [] {"ip":"::1"}
+[2023-01-04T17:49:59.655242+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_monCompte [] {"ip":"::1"}
+[2023-01-04T17:50:00.663923+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:03.855248+01:00] cafe.DEBUG: ModifierUtilisateur Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:05.223027+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:06.534385+01:00] cafe.DEBUG: nouveau Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:07.910415+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:48.071744+01:00] cafe.DEBUG: ModifierUtilisateur Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:50.308373+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:51.422179+01:00] cafe.DEBUG: nouveau Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:50:52.590645+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_monCompte [] {"ip":"::1"}
+[2023-01-04T17:50:53.109938+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:51:03.311782+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_monCompte [] {"ip":"::1"}
+[2023-01-04T17:51:04.134073+01:00] cafe.DEBUG: SeDeconnecter Gerer_monCompte [] {"ip":"::1"}
+[2023-01-04T17:51:12.587346+01:00] cafe.DEBUG: lOGGER L'UTILISATEUR INCONNU [] {"ip":"::1"}
+[2023-01-04T17:51:21.522415+01:00] cafe.DEBUG: lOGGER L'UTILISATEUR INCONNU [] {"ip":"::1"}
+[2023-01-04T17:51:28.294907+01:00] cafe.DEBUG: lOGGER L'UTILISATEUR INCONNU [] {"ip":"::1"}
+[2023-01-04T17:51:33.496427+01:00] cafe.DEBUG: lOGGER L'UTILISATEUR INCONNU [] {"ip":"::1"}
+[2023-01-04T17:51:33.569020+01:00] cafe.DEBUG: MDP INCORRECT [] {"ip":"::1"}
+[2023-01-04T17:51:36.302826+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_monCompte [] {"ip":"::1"}
+[2023-01-04T17:51:38.958861+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:51:40.966387+01:00] cafe.DEBUG: ModifierUtilisateur Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:51:43.202532+01:00] cafe.DEBUG: réinitialiserMDPUtilisateur Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:52:20.919622+01:00] cafe.DEBUG: ModifierUtilisateur Gerer_utilisateur [] {"ip":"::1"}
+[2023-01-04T17:52:22.559265+01:00] cafe.DEBUG: réinitialiserMDPUtilisateur Gerer_utilisateur [] {"ip":"::1"}

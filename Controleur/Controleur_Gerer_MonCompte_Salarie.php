@@ -54,6 +54,17 @@ switch ($action) {
         $Vue->setEntete(new Vue_Structure_Entete());
         $Vue->addToCorps(new Vue_Connexion_Formulaire_client());
         break;
+
+    case "refuserRGPD":
+        Modele_Salarie::SalarieUpdateRGPD($_SESSION["idSalarie"]);
+        session_destroy();
+        unset($_SESSION);
+        $Vue->setEntete(new Vue_Structure_Entete());
+        $Vue->addToCorps(new Vue_Connexion_Formulaire_client());
+        break;
+
+        include "Controleur/Controleur_RGPD.php";
+        break;
     default :
         //Cas par défaut: affichage du menu des actions.
         $Vue->setEntete(new Vue_Structure_Entete());

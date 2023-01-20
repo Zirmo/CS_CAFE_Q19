@@ -1,0 +1,107 @@
+[2023-01-20T13:23:14.295404+01:00] cafe.DEBUG: Action_Par_Defaut Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:23:16.283061+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:23:16.462148+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:23:18.674672+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:23:34.067725+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:31:58.962701+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:32:02.139484+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:33:40.949799+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:33:42.451426+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:33:42.468884+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:33:43.987679+01:00] cafe.DEBUG: RefuserRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T13:33:45.997163+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:33:46.092060+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:33:49.981057+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:33:54.389639+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:33:54.391423+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:36:37.710154+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:36:38.991753+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:36:38.993618+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:36:40.071922+01:00] cafe.DEBUG: RefuserRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T13:42:00.164080+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:42:00.166484+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:42:01.389752+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:42:02.197021+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:42:04.022847+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:42:04.024633+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:42:05.470360+01:00] cafe.DEBUG: RefuserRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T13:42:07.535811+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:42:07.632765+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:46:29.201607+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:46:32.645998+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:46:32.647909+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:46:33.757746+01:00] cafe.DEBUG: RefuserRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T13:49:15.625393+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:49:15.723098+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:49:17.287041+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:49:18.422037+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:49:18.424135+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:49:22.949737+01:00] cafe.DEBUG: RefuserRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T13:49:26.525173+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:49:26.622867+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:51:38.881150+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:51:41.292206+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:51:41.294052+01:00] cafe.DEBUG: RGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:52:18.461412+01:00] cafe.DEBUG: RefuserRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T13:54:44.948951+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:54:45.069988+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:54:46.429793+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:54:48.483460+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:55:57.418572+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:55:59.252638+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:00.330815+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:06.810962+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:07.825977+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:08.737740+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:09.322112+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:09.545877+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:10.522684+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:11.652897+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:13.908309+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:56:13.998318+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:56:15.153605+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:16.139115+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:52.103416+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:52.937758+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:54.010612+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:56:56.082476+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:57:00.499354+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:57:02.299680+01:00] cafe.DEBUG: SeDeconnecter Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:57:03.452155+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:57:03.546921+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:57:05.115650+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:57:05.979030+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:57:35.707417+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:57:36.395471+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:57:37.322572+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:58:22.571911+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:58:23.674633+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:58:25.345766+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:58:31.339587+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T13:58:31.435707+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T13:58:32.873984+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T13:58:33.682528+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:00:47.805379+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:00:50.096597+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:00:51.257835+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:01:20.459039+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:01:21.064087+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:01:22.105492+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:01:23.380531+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:01:24.858525+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T14:01:24.943735+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T14:01:26.178076+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:01:26.993853+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:03:39.503534+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:03:41.898811+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T14:03:41.973340+01:00] cafe.DEBUG: Chargement : action Se connecter  [] {"ip":"::1"}
+[2023-01-20T14:03:43.618822+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:03:44.929167+01:00] cafe.DEBUG: refuserRGPD Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:03:48.970791+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T14:03:49.069200+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T14:03:50.770693+01:00] cafe.DEBUG: AccepterRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T14:04:10.018861+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T14:04:10.092695+01:00] cafe.DEBUG: Se connecter Cas_Par_Defaut [] {"ip":"::1"}
+[2023-01-20T14:04:11.289458+01:00] cafe.DEBUG: AccepterRGPD RGPD [] {"ip":"::1"}
+[2023-01-20T14:04:13.290976+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
+[2023-01-20T14:04:31.023448+01:00] cafe.DEBUG: Action_Par_Defaut Gerer_MonCompte_Salarie [] {"ip":"::1"}
